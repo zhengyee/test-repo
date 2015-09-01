@@ -1,0 +1,7 @@
+pwd--print working diretory
+cd--change
+ls--list contents
+library(knitr)
+ParentDirectory <- "C:/Users/Yi/Desktop/Rep-Res-Book-master/Source"
+setwd(ParentDirectory)
+knitr::knit2pdf(input = "Rep-Res-Parent.Rnw")
